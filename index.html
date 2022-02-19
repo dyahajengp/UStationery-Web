@@ -16,7 +16,6 @@
                     <li><a href="#produk">PRODUK</a></li>
                     <li><a href="#tips">TIPS</a></li>
                     <li><a href="#profil">PROFIL</a></li>
-                    <li><a href="#keranjang">KERANJANG-Q</a></li>
                 </ul>
             </div>
             <div class="display-logo">
@@ -29,7 +28,6 @@
                 <li><a href="#produk">PRODUK</a></li>
                 <li><a href="#tips">TIPS</a></li>
                 <li><a href="#profil">PROFIL</a></li>
-                <li><a href="#keranjang">KERANJANG-Q</a></li>
             </ul>
 
             <label for="check" class="menu">Menu</label>
@@ -43,63 +41,58 @@
     <main>
         <article id="produk">
             <h2>Produk Kami</h2>
-            <div class="container-product">
-                <div class="card stickynotes">
+            <div class="filter-urut">
+                <span>Urutkan</span>
+                <select name="" id="pilih">
+                    <option value="default">Default</option>
+                    <option value="dariMurah">dari Harga Termurah</option>
+                    <option value="dariMahal">dari Harga Termahal</option>
+                </select>
+            </div>
+            <ul class="container-product">
+                <li class="card stickynotes" data-harga="">
                     <figure>
                         <img src="assets/images/produk1.jpg" alt="Sticky Notes">
                         <figcaption value="12000">Sticky Notes</figcaption>
                     </figure>
-                    <div class="card-content">
-                        <h4>Pesan Sekarang</h4>
-                    </div>
-                </div>
-                <div class="card highlighter">
+                    <p>Rp12.000</p>
+                </li>
+                <li class="card highlighter" data-harga="">
                     <figure>
                         <img src="assets/images/produk2.jpg" alt="Highlighter">
                         <figcaption value="40000">Highlighter</figcaption>
                     </figure>
-                    <div class="card-content">
-                        <h4>Pesan Sekarang</h4>
-                    </div>
-                </div>
-                <div class="card notebook">
+                    <p>Rp40.000</p>
+                </li>
+                <li class="card notebook" data-harga="">
                     <figure>
                         <img src="assets/images/produk3.jpg" alt="Notebook">
                         <figcaption value="60000">Notebook</figcaption>
                     </figure>
-                    <div class="card-content">
-                        <h4>Pesan Sekarang</h4>
-                    </div>
-                </div>
-                <div class="card organizer">
+                    <p>Rp60.000</p>
+                </li>
+                <li class="card organizer" data-harga="">
                     <figure>
                         <img src="assets/images/produk4.jpg" alt="Organizer">
                         <figcaption value="75000">Organizer</figcaption>
                     </figure>
-                    <div class="card-content">
-                        <h4>Pesan Sekarang</h4>
-                    </div>
-                </div>
-                <div class="card journalingset">
+                    <p>Rp75.000</p>
+                </li>
+                <li class="card journalingset" data-harga="">
                     <figure>
                         <img src="assets/images/produk5.jpg" alt="Journaling Set">
                         <figcaption value="120000">Journaling Set</figcaption>
                     </figure>
-                    <div class="card-content">
-                        <h4>Pesan Sekarang</h4>
-                    </div>
-                </div>
-                <div class="card kartu">
+                    <p>Rp120.000</p>
+                </li>
+                <li class="card kartu" data-harga="">
                     <figure>
                         <img src="assets/images/produk6.jpg" alt="Card">
-                        <figcaption value="15000">Card</figcaption>
+                        <figcaption value="15000">Card<br></figcaption>
                     </figure>
-                    <div class="card-content">
-                        <h4>Pesan Sekarang</h4>
-                    </div>
-                </div>         
-            </div>
-            <span id="keranjang"></span>            
+                    <p>Rp15.000</p>
+                </li>         
+            </ul>           
         </article>
 
         <div class="kolom-container">
