@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    height: 60px;
+    float: left;
+    padding: 20px;
+}
+.logo:hover {
+    background-color: transparent;
+}
+header {
+    display: inline;
+}
+nav {
+    /* background-color: #79B4B7; */
+    background-color: #FFFFFF;
+    top: 0;
+    position: sticky;
+    overflow: auto;
+    text-align: right;
+    box-sizing: border-box;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 20px 30px;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    vertical-align: middle;
+}
+nav a:hover {
+    color: #79B4B7;
+    text-shadow: 0 0 3px #FEFBF3 ;
+}
+nav ul {
+    justify-content: right;
+    margin-top: 40px;    
+}
+.jumbotron{
+    font-size: 20px;
+    padding: 200px;
+    background-image: url('../images/store2.png');
+    text-align: center;
+    /* color:#3E3C3C; */
+    color: #000;
+    background-size: cover;
+    background-position: center;
+}
+.card {
+    padding: 40px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+figure img {
+    width: 260px;
+    height: 260px;
+    margin: 10px;
+    padding: 0;    
+}
+.container-product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+#tips {
+    background-color: #F8F0DF;
+    display: flex;
+    flex-direction: column;
+}
+aside {
+    text-align: center;
+}
+aside h3 {
+    margin: 2px;
+}
+main{
+    display: inline;
+    overflow: auto;
+}
+#profil header img {
+    width: 200px;
+}
+.kolom-container {
+    display: flex;
+    background-color: #FEFBF3;
+}
+footer {
+    background-color: #79B4B7;
+    padding: 20px 40px;
+    
+}
+#tips p {
+    text-align: justify;
+}
+#tips a {
+    color: #79B4B7;
+    text-decoration: none;
+}
+#tips a:hover {
+    color: #9D9D9D;
+}
+table {
+    margin-top: 10px;
+}
+th {
+    text-align: right;
+}
+td {
+    text-align: left;
+    padding: 2px;
+}
